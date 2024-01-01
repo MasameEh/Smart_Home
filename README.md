@@ -1,7 +1,7 @@
 # Smart Home System Project
 
 ## Overview
-This project implements a smart home system that allows users to control various home devices and functionalities through a keypad interface. It includes features like setting passwords, logging in as Admin or Guest, controlling room appliances, managing temperature settings, and handling session timeouts.
+This project implements a smart home system that allows users to control various home devices and functionalities through a keypad interface. It includes features like setting passwords, logging in as Admin or Guest, controlling room appliances, managing temperature settings, and handling session timeouts and it based on PIC18F4620 Microcontroller.
 
 ## Components
 - **Microcontroller:** Utilizes a microcontroller for system control and device communication.
@@ -26,8 +26,10 @@ This project implements a smart home system that allows users to control various
 6. **Session Timeout:** System automatically logs out users upon session timeout.
 
 ## Code Structure
-- **`Master_App.c`:** Contains the main application logic.
+- **`Master_App.c`:** Contains the main application logic for the Master(Pic18f4620).
 - **`Master_App.h`:** Header file with function declarations and constants.
+- **`Slave_App.c`:** Contains the main application logic for the Slave(Pic18f4620).
+- **`Slave_App.h`:** Header file with function declarations and constants.
 - **Functions:** Includes functions for keypad input, EEPROM data handling, menu navigation, device control, and session management.
 
 ## Usage Notes
